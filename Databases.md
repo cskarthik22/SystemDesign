@@ -9,6 +9,7 @@
   - Writes are performed immediately, without first worrying about reading or updating existing values (like databases that rely on B-trees do).
 ## However, if you opt for a write-optimized database, be prepared for higher storage requirements and the potential for slower reads.
 - **NOTE: Write-optimized databases can improve read latency via internal caching
+- Most write-optimized databases will store your writes in memory before persisting that information to the disk (in fact, that’s one of the reasons why they are write-optimized).
 
 
 # Read-Heavy Workloads
