@@ -1,3 +1,7 @@
+
+<img width="825" alt="image" src="https://github.com/user-attachments/assets/f4fbad65-2bfb-461c-840d-10afe39268e2" />
+
+
 # Write-Heavy Workloads
 
 - If you have a write-heavy workload, we strongly recommend a database that stores data in immutable files (e.g., Cassandra, ScyllaDB, and others that use LSM trees).2 These databases optimize write speed because:
