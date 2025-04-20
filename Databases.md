@@ -6,3 +6,11 @@ a) Writes are sequential, which is faster in terms of disk I/O
 b) Writes are performed immediately, without first worrying about reading or updating existing values (like databases that rely on B-trees do).
 ** However, if you opt for a write-optimized database, be prepared for higher storage
 requirements and the potential for slower reads.
+
+
+# Read-Heavy Workloads
+
+Looking for
+- Strong consistency
+- Eventual consistency
+
